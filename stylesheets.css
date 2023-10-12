@@ -1,0 +1,194 @@
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #222222;
+            color: white;
+            padding: 1rem;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .head-btns {
+            color: white;
+            text-decoration: none;
+        }
+
+        .menu {
+            align-items: center;
+            gap: 1.5rem;
+            cursor: pointer;
+            display: none;
+        }
+
+        @media screen and (min-width: 768px) {
+            .menu {
+                display: flex;
+            }
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .Home {
+            min-height: 100vh;
+            background-image: url(home.jpg);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-size: cover;
+
+        }
+
+        .caption1 {
+            font-size: 50px;
+            font-weight: bold;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 0px;
+            margin: 0px;
+        }
+
+        .caption2 {
+            color: #fff;
+            font-size: 26px;
+            border-top: 1px solid #fff;
+            margin-top: 5px;
+        }
+
+        .btn1 {
+            width: 130px;
+            background: rgb(244, 73, 6);
+            border: none;
+            height: 40px;
+            margin-top: 20px;
+            border-radius: 5px;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        .service {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .section-2 {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .welcome-heading {
+            text-align: center;
+        }
+
+        .welcome-desc {
+            text-align: center;
+        }
+
+        .service-container {
+            height: 100vh;
+            margin-top: 10px;
+            padding: 10px;
+            padding-top: 50 px;
+            background-color: #808080;
+            color: #fff;
+            text-align: center;
+
+        }
+
+        .s-container1 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .scard {
+            background-color: #fff;
+            padding: 20px;
+            margin: 10px;
+            height: 30vh;
+            width: 25vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: black;
+            justify-content: center;
+        }
+
+        .icon {
+            font-size: 30px;
+            color: red;
+        }
+
+        .ïmage {
+            width: 20vw;
+            height: 30vh;
+            margin-right: 20px;
+        }
+
+
+
+        .image-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .subcontainer {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        /* @media (max-width: 767px) {
+            .subcontainer {
+                flex-direction: column;
+            }
+
+            .ïmage {
+                width: 70px;
+                height: 40px
+            }
+        } */
+
+        .contact-section {
+            height: 70vh;
+            text-align: center;
+            background-color: #222222;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .form-container {
+            margin-top: 5px;
+            width: 80%;
+            align-items: center;
+            justify-content: center;
+            background-color: #808080;
+            color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+
+
+        .icon1 {
+            width: 30px;
+            color: white;
+            cursor: pointer;
+        }
+
+        @media screen and (min-width: 768px) {
+            .icon1 {
+                display: none;
+            }
+        }
